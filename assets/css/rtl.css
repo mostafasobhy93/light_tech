@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+*:not(i) {
+    font-family: 'Tajawal', sans-serif ;
+}
+html, body {
+	direction: rtl;
+	text-align: right;
+}
+#scroll-top {
+	left: 17px;
+	right: auto;
+}
+.section-title h2:before {
+    right: 20px;
+    left: auto;
+}
+.preloader {
+    text-align: right;
+}
+
+header nav .links-list > ul .list-item {
+	margin-left: 30px;
+	margin-right: 0;
+}
+header nav .links-list > ul .list-item:last-child {
+    margin-left: 0;
+}
+header nav .links-list > ul .list-item.dropdown:hover i {
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}
+header nav .links-list > ul .list-item .link:before {
+	right: 0;
+	left: auto;
+}
+header nav .links-list > ul .list-item .link {
+	font-weight: bold;
+}
+.main-slider .carousel-btn-block .carousel-btn.right-btn {
+    left: 30px;
+    right: auto;
+}
+.main-slider .banner-slides .active .banner-title {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+.main-slider .banner-slides .banner-title {
+    text-align: left;
+}
+/*
+.main-slider .banner-slides .slide > .row {
+    flex-direction: row-reverse;
+}
+*/
+.about-section .sec-title-text {
+	left: 0;
+    right: auto;
+}
+.project-section .sec-title-text  {
+	left: 0;
+    right: auto;
+}
+.project-section .project-item .pr-content .icon-link {
+    right: 25px;
+    left: auto;
+}
+.contract-section .content .email .mail-content {
+	text-align: right;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+/*
+.project-section .project-item .pr-overlay:after,
+.project-section .project-item .pr-overlay:before {
+    left: 10px;
+    right: auto;
+}
+*/
+.contract-section .content .email {
+	margin-left: 60px;
+    margin-right: 0;
+}
+.products-section .sec-title-text {
+	left: auto;
+	right: 0;
+}
+.products-slider .carousel-btn-block .carousel-btn.right-btn {
+    left: -100px;
+    right: auto;
+}
+.products-slider .carousel-btn-block .carousel-btn.left-btn {
+    right: -100px;
+    left: auto;
+}
+.contact-page .contact-content .contact-list li i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.products-section .product-card .card-content:before {
+    right: 0;
+    left: auto;
+}
+.products-section .product-card .card-content.shadow {
+    padding-right: 10px;
+    padding-left: 0;
+}
+.contact-page .contact-content .social-list li {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.contact-page .contact-content .social-list li:first-child {
+    margin-right: 0;
+}
+footer .footer-social .social-list li {
+    margin-right: 20px;
+    margin-left: 0;
+}
+footer .footer-social .social-list li:first-child {
+	margin-right: 0;
+}
+
+
+.dropdown .droplist {
+	right: 0;
+	left: auto;
+}
+header nav .links-list {
+    margin-right: auto;
+	margin-left: 0;
+}
+header nav .links-list > ul .list-item .link:after {
+	right: 0;
+	left: auto;
+}
+header nav .links-list > ul .list-item.dropdown .link i {
+	margin-right: 3px;
+	margin-left: 0;
+}
+header nav .profile-content {
+	margin-right: 15px;
+	margin-left: 0;
+}
+header.sticky {
+	right: 0;
+	left: auto;
+}
+
+.main-slider .carousel-btn-block .carousel-btn.left-btn {
+    right: 30px;
+    left: auto;
+}
+.main-slider .slide-image-wrap svg {
+    right: 50%;
+    left: auto;
+}
+
+.fa-arrow-left:before {
+    content: "\f061";
+}
+.fa-arrow-right:before {
+    content: "\f060";
+}
+.fa-chevron-right:before {
+    content: "\f053";
+}
+.fa-chevron-left:before {
+    content: "\f054";
+}
+.fa-chevron-circle-right:before {
+    content: "\f137";
+}
+.fa-chevron-circle-left:before {
+    content: "\f138";
+}
+.text-left {
+    text-align: right!important;
+}
+.text-right {
+    text-align: left!important;
+}
+
+.owl-carousel .owl-stage-outer {
+	direction: ltr;
+}
+.main-slider .banner-slides .slide {
+    direction: rtl
+}
+ 
+/*
+@media (min-width: 1200px) {
+    .main-slider .banner-slides .slide > .row > .justify-content-xl-end {
+        -ms-flex-pack: start!important;
+        justify-content: flex-start!important;
+    }
+}
+*/
+
+@media(max-width: 1199px) {
+    header nav .links-list {
+        right: 0;
+        left: auto;
+    }
+    .main-slider .banner-slides .banner-title {
+        text-align: center;
+    }
+}
+@media(max-width: 991px) {
+	header nav .links-list {
+		right: 0;
+		left: auto;
+	}
+}
+@media(max-width: 767px) {
+    .products-slider .carousel-btn-block .carousel-btn.right-btn {
+		left: 0;
+        right: auto;
+	}
+    .products-slider .carousel-btn-block .carousel-btn.left-btn {
+        right: 0;
+        left: auto;
+    }
+    .contract-section .content .email { 
+        margin-left: 0;
+    }
+}
